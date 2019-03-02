@@ -1,5 +1,8 @@
 # Add  code here!
 def prime?(number)
+  if number == -1
+    return false
+  end
   num = number.abs
   for d in 2..(num-1)
   if (num % d) == 0
