@@ -1,3 +1,4 @@
 # Add  code here!
-def prime?(num)
-  abs_num = num.abs
+def prime?(number)
+  num = number.abs
+  
