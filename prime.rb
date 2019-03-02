@@ -1,4 +1,4 @@
 # Add  code here!
 def prime?(number)
   num = number.abs
-  for 
+  for d in 2..(num-1)
