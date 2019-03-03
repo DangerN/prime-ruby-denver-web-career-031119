@@ -1,6 +1,9 @@
 # Add  code here!
 def prime?(number)
   num = number.abs
+  if num == 2
+    return true
+  end
   check = (2...num)
   check.each do |it|
     if (num % it) == 0
