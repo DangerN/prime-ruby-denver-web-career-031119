@@ -5,3 +5,4 @@ def prime?(number)
     return false
   else
     for i in 2...num
+    
