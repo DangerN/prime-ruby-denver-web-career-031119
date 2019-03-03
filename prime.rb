@@ -6,7 +6,7 @@ def prime?(number)
 #  end
   check = (2...num).to_a
   check.each do |it|
-    if (num % it) == 0
+    if ((num % it) == 0) && (num != it)
       return false
     end
   end
