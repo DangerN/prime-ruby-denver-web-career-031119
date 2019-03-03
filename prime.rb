@@ -1,10 +1,10 @@
 # Add  code here!
 def prime?(number)
   num = number.abs
-  if num = 2
+  if num == 2
     return true
   end
-  if num = 0 || 1
+  if num == 0 || 1
     return false
   else
     for i in 2...num
