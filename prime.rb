@@ -1,4 +1,4 @@
 # Add  code here!
 def prime?(number)
   num = number.abs
-  check[] = (2...)
+  check = (2...num)
