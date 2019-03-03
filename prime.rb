@@ -4,4 +4,4 @@ def prime?(number)
   if num = 0 || 1
     return false
   else
-    for n 
+    for i in 2...num
